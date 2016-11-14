@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WaterSystem/SimpleHttpServer.cs">
+    <Files>
+      <File FileName="WaterSystem/Main.cs" Line="236" Column="1" />
+      <File FileName="WaterSystem/SessionAuthentication.cs" Line="4" Column="22" />
+      <File FileName="WaterSystem/State.cs" Line="4" Column="22" />
+      <File FileName="WaterSystem/LoginCredentials.cs" Line="46" Column="1" />
+      <File FileName="WaterSystem/SimpleHttpServer.cs" Line="245" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

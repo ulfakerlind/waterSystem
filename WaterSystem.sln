@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterSystem", "WaterSystem\WaterSystem.csproj", "{BED11D0E-B821-4B7F-8BCE-F1C533E44770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHttpServer", "..\SimpleHttpServer\SimpleHttpServer\SimpleHttpServer.csproj", "{1798CA6B-1F1A-46BF-9E9F-5BB28F267453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clayster.Library.RaspberryPi", "..\Downloads\Clayster.Library.RaspberryPi\Clayster.Library.RaspberryPi.csproj", "{86C3A3A9-FBE0-485C-8B9C-D093A7F52FDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1798CA6B-1F1A-46BF-9E9F-5BB28F267453}.Debug|x86.ActiveCfg = Debug|x86
+		{1798CA6B-1F1A-46BF-9E9F-5BB28F267453}.Debug|x86.Build.0 = Debug|x86
+		{1798CA6B-1F1A-46BF-9E9F-5BB28F267453}.Release|x86.ActiveCfg = Release|x86
+		{1798CA6B-1F1A-46BF-9E9F-5BB28F267453}.Release|x86.Build.0 = Release|x86
+		{86C3A3A9-FBE0-485C-8B9C-D093A7F52FDB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{86C3A3A9-FBE0-485C-8B9C-D093A7F52FDB}.Debug|x86.Build.0 = Debug|Any CPU
+		{86C3A3A9-FBE0-485C-8B9C-D093A7F52FDB}.Release|x86.ActiveCfg = Release|Any CPU
+		{86C3A3A9-FBE0-485C-8B9C-D093A7F52FDB}.Release|x86.Build.0 = Release|Any CPU
+		{BED11D0E-B821-4B7F-8BCE-F1C533E44770}.Debug|x86.ActiveCfg = Debug|x86
+		{BED11D0E-B821-4B7F-8BCE-F1C533E44770}.Debug|x86.Build.0 = Debug|x86
+		{BED11D0E-B821-4B7F-8BCE-F1C533E44770}.Release|x86.ActiveCfg = Release|x86
+		{BED11D0E-B821-4B7F-8BCE-F1C533E44770}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = WaterSystem\WaterSystem.csproj
+	EndGlobalSection
+EndGlobal
