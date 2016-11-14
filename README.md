@@ -1,11 +1,8 @@
 # waterSystem
-This project works is designed for a raspberry pi where the external hardware includes a water sensor, a led light and a waterpump
+This project is designed for a raspberry pi.
 
-The project is still being developed and currently contains hardcoded variables for the max and min values of the moisture level 
-in the soil and how often it should be watered.
+This project solves the problem of watering ones plants at home while one is traveling or extremely busy. Goals of this project is to produce a system that requires as little calibration as possible. Through a local website, one can inform the system what the user considers to be the minimum moisture level and, shortly after watering the plant, what the user considers to be the maximum moisture level. After this point, the sensor that measures some quantitiy should not drift.
 
-that in practice the user will insert the moisture sensor, let the program know that it can save the min value, water the plant,
-and let the program know that it can save the max value. After these steps all that remains is to refill an external water tank
-and talk to ones plant.
+After attempting to run tests with the moisture sensor, it became apperent after two weeks that the moisture sensors I have tried so far cannot be left in moist soil... A work-around solution is to adapt this project to only measure the weight of a plant in a pot via a load cell. Load cells are according to many website the most reliable type of sensor, and they do not loose their rigidness with time.
 
-Furthermore this project uses the Clayster.Library.Internet and Clayster.Library.RaspberryPi which can be downloaded here on github
+Furthermore this project uses the Clayster.Library.RaspberryPi library which can be downloaded here on github.
